@@ -1,7 +1,7 @@
 USAID DEC Evaluation Documents
 ==============================
 
-This repo helps you get metadata for USAID DEC evaluation documents.
+This repo helps you get metadata for USAID DEC evaluation documents, and also keeps the plain text of evaluation documents.
 Under output/evals/txt/ you will find plain text of all the USAID DEC evaluation documents as of 2014-09-29.
 From this stage you could, for example:
 
