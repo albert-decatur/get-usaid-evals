@@ -1,10 +1,18 @@
-get USAID DEC eval
-==================
+USAID DEC Evaluation Documents
+==============================
 
-Get metadata for USAID DEC evaluation documents.
+This repo helps you get metadata for USAID DEC evaluation documents.
+Under output/evals/txt/ you will find plain text of all the USAID DEC evaluation documents as of 2014-09-29.
+From this stage you could, for example:
+
+* use Stanford NER to run named entity recognition (NER) for places, organizations, and people
+* get a bag of words from each document and run tf-idf to find terms that distinguish documents from each other
+* use Mallet to run LDA topic modelling or find meaningful n-grams
+
 The script get_usaid_dec.sh just uses the USAID qsearch API.
 You can hand it an arbitrary search string.
 You can run this script in a loop by year like so:
+
 
 ```bash
 outdir=output
@@ -18,6 +26,7 @@ done
 
 Or you could grab project evals by month if year breaks:
 
+
 ```bash
 yr=2014
 # note use of seq -w to pad 1 - 9 with leading zero
@@ -29,3 +38,4 @@ do
 	./get_usaid_dec.sh "(Documents.Bibtype_Name:((\"Special Evaluation\") OR (\"Final Evaluation Report\"))) AND datecreated:([${yr}${c}01000000 TO ${yr}${n}01000000])" > output/${yr}${c}${n}.csv
 done
 ```
+
