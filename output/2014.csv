@@ -1,2 +1,0 @@
-SearchString,Date,NumberOfResults,Identifier,Message
-(Documents.Bibtype_Name:((""Special Evaluation"") OR (""Final Evaluation Report""))) AND (Documents.Date_of_Publication_Freeforrm:(2014)),9/29/2014 12:38:29 PM,0,SystemError,An internal error has occured

@@ -1,3 +1,0 @@
-SearchString,Date,NumberOfResults,Identifier,Message
-(Documents.Bibtype_Name:((""Special Evaluation"") OR (""Final Evaluation Report""))) AND (Documents.Date_of_Publication_Freeforrm:(1952)),9/29/2014 12:33:22 PM,0,ZeroResults,The search query provided returned zero(0) results.
-SearchString,Date,NumberOfResults,Identifier,Message
