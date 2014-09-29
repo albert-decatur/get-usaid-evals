@@ -1,0 +1,3 @@
+SearchString,Date,NumberOfResults,Identifier,Message
+(Documents.Bibtype_Name:((""Special Evaluation"") OR (""Final Evaluation Report""))) AND datecreated:([20141201000000 TO 20141301000000]),9/29/2014 1:02:01 PM,0,ZeroResults,The search query provided returned zero(0) results.
+SearchString,Date,NumberOfResults,Identifier,Message
