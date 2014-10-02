@@ -2,7 +2,8 @@ USAID DEC Evaluation Documents
 ==============================
 
 This repo helps you get metadata for USAID DEC evaluation documents, and also keeps the plain text of evaluation documents.
-Under output/evals/txt/ you will find plain text of all the USAID DEC evaluation documents as of 2014-09-29.
+Under output/ you will find a TSV with metadata for all USAID evals called evals_2014-09-29.csv.
+Also under output you can find [git_split_big](https://github.com/albert-decatur/git-split-big) zips for all those evals as text called eval_files.zip_zips/.
 From this stage you could, for example:
 
 * use Stanford NER to run named entity recognition (NER) for places, organizations, and people
